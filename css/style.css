@@ -82,3 +82,9 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+/* MAIN-CONTENT */
+.main-content {
+  flex-grow: 1;
+}
