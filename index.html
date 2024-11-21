@@ -28,8 +28,10 @@
         <a class="hero-button button" href="#">Learn more</a>
 
         <picture>
-          <source srcset="img/image-hero.webp" type="image/webp">
-          <img src="img/image-hero.png" alt="Phone with statistics illutration on the screen" width="767px" height="441px" srcset="img/image-hero.png 1x, img/image-hero@2x.png 2x">
+          <source srcset="img/image-hero-mobile.png 1x, img/image-hero-mobile@2x.png 2x" media="(max-width: 500px)">
+          <source srcset="img/image-hero-tablet.png 1x, img/image-hero-tablet@2x.png 2x" media="(max-width: 768px)">
+          <source class="hero__picture" srcset="img/image-hero.webp" type="image/webp">
+          <img class="hero__img" src="img/image-hero.png" alt="Phone with statistics illutration on the screen" width="767px" height="441px" srcset="img/image-hero.png 1x, img/image-hero@2x.png 2x">
         </picture>
       </div>
      </div>
